@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+body{
+    background: #00008B;
+    padding: 0 10px;
+}
+
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+    border-radius: 20px;
+}
+
+.wrapper h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #00008B;
+    text-transform: uppercase;
+}
+
+.wrapper form{
+    width: 100%;
+}
+
+.wrapper form tr{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper form tr .title{
+    width: 100px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper form tr td input{
+    width: 150%;
+    outline: none;
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 5px 8px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.wrapper form tr .input_select{
+    position: relative;
+    width: 100%;
+    margin-left: 30px;
+    height: 37px;
+}
+
+.wrapper form tr .input_select select{
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    padding: 4px 8px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.wrapper form tr .input_select:before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #d5d5d9 transparent transparent transparent;
+    pointer-events: none;
+}
+
+.wrapper form tr td input:focus{
+    border: 2px solid #00008B;
+}
+
+.wrapper form tr td input:hover{
+    border: 2px solid #00008B;
+}
+
+.wrapper form tr .input_select select:focus{
+    border: 2px solid #00008B;
+}
+
+.wrapper form .btn{
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 60px;
+    padding: 4px 8px;
+    font-size: 15px;
+    border: 0;
+    background: #00008B;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+}
+
+.wrapper form .btn:hover{
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 60px;
+    padding: 4px 8px;
+    font-size: 15px;
+    border: 0;
+    background: #fff;
+    color: #00008B;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
